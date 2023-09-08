@@ -112,10 +112,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LC(Z)  &kp LC(Y)     &kp F1  &kp F2    &kp F3   &kp F4      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp SCROLLLOCK
-&kp LC(X)  &bt BT_SEL 0  &kp F5  &kp F6    &kp F7   &kp F8      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp INSERT       &kp HOME         &kp PAGE_UP
-&kp LC(C)  &kp LC(V)     &kp F9  &kp F10   &kp F11  &kp F12     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DEL          &kp END          &kp PAGE_DOWN
-                                 &kp LGUI  &trans   &kp BSPC    &kp SPACE        &kp KP_NUMBER_0  &kp PERIOD
+&kp LC(Z)  &kp LC(Y)     &kp F1  &kp F2    &kp F3   &kp F4      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PRINTSCREEN  &kp PAUSE_BREAK  &kp SCROLLLOCK
+&kp LC(X)  &bt BT_SEL 0  &kp F5  &kp F6    &kp F7   &kp F8      &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp INSERT       &kp HOME         &kp PAGE_UP
+&kp LC(C)  &kp LC(V)     &kp F9  &kp F10   &kp F11  &kp F12     &kp NUMBER_1  &kp N2        &kp NUMBER_3  &kp DEL          &kp END          &kp PAGE_DOWN
+                                 &kp LGUI  &trans   &kp BSPC    &kp SPACE     &kp NUMBER_0  &kp PERIOD
             >;
         };
 
