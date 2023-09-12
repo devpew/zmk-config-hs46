@@ -143,9 +143,9 @@
 
         Gaming {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E         &kp R      &kp T    &kp Y  &kp U     &kp I          &kp O       &kp P          &kp
-&kp LSHIFT  &kp A  &kp S  &kp D         &kp F      &kp G    &kp H  &kp J     &kp K          &kp L       &kp SEMICOLON  &kp
-&kp LCTRL   &kp Z  &kp X  &kp C         &kp V      &kp B    &kp N  &kp M     &kp COMMA      &kp PERIOD  &kp SLASH      &kp
+&kp ESCAPE  &kp Q  &kp W  &kp E         &kp R      &kp T    &kp Y  &kp U     &kp I          &kp O       &kp P          &kp TAB
+&kp LSHIFT  &kp A  &kp S  &kp D         &kp F      &kp G    &kp H  &kp J     &kp K          &kp L       &kp SEMICOLON  &kp RSHFT
+&kp LCTRL   &kp Z  &kp X  &kp C         &kp V      &kp B    &kp N  &kp M     &kp COMMA      &kp PERIOD  &kp SLASH      &kp RCTRL
                           &kp LEFT_ALT  &kp SPACE  &mo 1    &mo 2  &kp LALT  &kp RIGHT_GUI
             >;
         };
