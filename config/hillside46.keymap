@@ -21,7 +21,9 @@
 #define Paste  LC(V)
 #define Redo   LC(Y)
 
-combos {
+
+/ {
+	combos {
         compatible = "zmk,combos";
 
         lparen {
@@ -96,9 +98,7 @@ combos {
         };
     };
 
-
-/ {
-        keymap {
+    keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
