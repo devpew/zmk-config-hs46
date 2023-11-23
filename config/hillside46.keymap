@@ -71,7 +71,7 @@
 			key-positions = <20 21>;
 		};
 		
-		apos {
+		quot {
 			bindings = <&kp DQT>;
 			key-positions = <34 35>;
 		};
