@@ -136,7 +136,7 @@
 &kp  Undo     &kp  Redo     &kp  F1       &kp  F2       &kp  F3       &kp  F4                                                                        &kp   N7   &kp  N8    &kp   N9      &kp   PRINTSCREEN  &kp  N0  &trans
 &kp  Cut      &kp  LGUI     &kp  F5       &kp  F6       &kp  F7       &kp  F8                                                                        &kp   N4   &kp  N5    &kp   N6      &kp   DOWN    &kp  RIGHT    &kp PG_DN
 &kp  Copy     &kp  Paste    &kp  F9       &kp  F10      &kp  F11      &kp  F12       &kp Undo                                           &kp  Redo    &kp   N1   &kp  N2    &kp   N3      &kp   DEL      &kp  F10      &kp RCTRL
-                                                        &trans        &trans        &trans        &trans                 &mo 3      &kp N0     &kp DOT        &trans 
+                                                        &trans        &trans        &trans        &trans                 &mo 3      &trans    &kp N0        &kp DOT 
                         >;
 			
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -151,8 +151,8 @@
  *                                 |       |       |       |  ADJ_L |---|      |       |       |       |
  */
                         bindings = <
-&kp  INS      &kp  EXCL     &kp  AT       &kp  HASH     &kp  DOLLAR   &kp  PERCENT                                                                   &kp  AMPS    &kp  ASTRK    &kp  LPAR    &kp  LPAR     &kp  RPAR     &kp DEL
-&none         &kp  BSLH     &kp  MINUS    &kp  EQUAL    &kp  LBKT     &kp  RBKT                                                                      &kp  DOLLAR  &kp  PERCENT  &kp  CARET   &kp  LALT     &kp  RGUI     &kp END
+&kp  INS      &kp  EXCL     &kp  UP       &kp  HASH     &kp  DOLLAR   &kp  PERCENT                                                                   &kp  AMPS    &kp  ASTRK    &kp  LPAR    &kp  LPAR     &kp  RPAR     &kp DEL
+&none         &kp  LEFT     &kp  DOWN     &kp  RIGHT    &kp  LBKT     &kp  RBKT                                                                      &kp  DOLLAR  &kp  PERCENT  &kp  CARET   &kp  LALT     &kp  RGUI     &kp END
 &trans        &kp  PIPE     &kp  UNDER    &kp  PLUS     &kp  LBRC     &kp  RBRC     &sk  RALT                                          &kp K_APP     &kp  EXCL    &kp  AT       &kp  HASH    &kp  C_PP     &none         &kp RCTRL
                                                         &trans        &trans        &trans       &mo  3               &trans       &trans        &trans        &trans
                         >;
